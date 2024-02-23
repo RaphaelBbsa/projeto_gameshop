@@ -13,19 +13,19 @@
 <body>
     <header>
          <div class="container">
-            <h1 class="teko-1">Meta Games</h1>
+            <h1 class="cabecalho">Meta Games</h1>
             <nav>
                 <ul>
                     <li>
-                        <a href="#">Sobre a loja</a>  
+                        <a href="#loja">Sobre a loja</a>  
                     </li>
-                    <li> <a href="#">Fale conosco</a>
+                    <li> <a href="#contato">Fale conosco</a>
                     </li>
                 </ul>
             </nav>
         </div>
          </header>
-         <section>
+         <section id="loja">
             <div class="container"> 
                 <img class="fachada" src="midias/loja.jpg" alt="Fachada da MetaGames"/>
                 <div class="fachada2">
@@ -42,6 +42,53 @@
                 </div>
             </div>
          </section>
+         <section id="contato">
+            <div class="container">
+                <h2>Contato</h2>
+            </div>
+             <h3>Fale conosco</h3>
+             <div class="contato_metodos">
+                <form>
+                    <input type="text" placeholder="Seu nome" required />
+                    <input type="email" placeholder="Seu e-mail" required />
+                    <input type="tel" placeholder="Seu telefone(opcional)" />
+                    <textarea placeholder="Escreve sua mensagem" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            <div>
+                <h3> Redes sociais</h3>
+                <ul class="redes_sociais">
+                    <li>
+                        <a href="#" title="Siga nosso Instagram">
+                        <img src="./midias/instagram.png" alt="Logo do Instagram" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Siga nosso Facebook">
+                        <img src="./midias/facebook.png" alt="Logo do Facebook" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Siga nosso Canal no Youtube">
+                        <img src="./midias/youtube.png" alt="Logo do Youtube" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h3>Venha até nossa loja</h3>
+                <p> Rua Pinto de Campos, n° 220, Madureira - Rio de janeiro - Rj
+                </p>
+            </div>
+        </div>
+         </section>
+        <footer>
+            <div class="container">
+                <p>
+                    &copy; Meta Games - Todos os direitos reservados - 2024
+                </p>
+             </div>
+           </footer>
     
 </body>
 </html>

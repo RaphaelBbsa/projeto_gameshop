@@ -4,13 +4,34 @@
     box-sizing: border-box;
 }
 
-.teko-1 {
+body, input, textarea{
+    font-family: 'Roboto', sans-serif;
+}
+
+.cabecalho {
     font-family: "Teko", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 350;
+    font-weight: 600;
     font-style: normal;
-  }
+ }
 
+ .container h2{
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+ }
+
+ section{
+    color: #182C61;
+ }
+
+ header nav li a{
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+ }   
 
 
 header{
@@ -48,8 +69,14 @@ section .container {
     height: 24px;
 }
 
-.marcas li{
+.marcas li,
+.redes_sociais li{
     display: inline;
+    margin-right: 16px;
+}
+
+.redes_sociais li a{
+    text-decoration: none;
 }
 
 section .container{
@@ -70,5 +97,63 @@ section h2{
 
 .fachada{
     width: 40%;
+}
+
+.redes_sociais img{
+    height: 24px;
+}
+
+.contato_metodos{
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 300px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+#contato {
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+#contato h2,
+#contato h3,
+#contato button { font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+form button{
+    background-color: #182C61;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #2a4489
+}
+
+#contato button {
+    font-size: px;
+}
+
+footer{
+    background-color: #4e3a047e;
+    color: #fff;
+    padding: 16px;
 }
 
